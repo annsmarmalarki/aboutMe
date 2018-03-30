@@ -229,7 +229,8 @@ body.scale-effect .btn-holder .btn-play {
 
 .btn-holder {
     position:absolute;
-    top:75px;right:301px;
+        top:75px; 
+        right:301px;
     cursor:pointer;
     z-index:3;
     transition:all .5s;
@@ -294,22 +295,20 @@ body.scale-effect .btn-holder .btn-play {
 }
 
 @media screen and (max-width:767px) {
-    .btn-holder 
-    {
+    .btn-holder {
         top:102px;
         right:0;
     }
-    .btn-holder .btn-large 
-    {
-        width:36.5px;
-        height:36.5px;
-    }
 
-    .btn-holder .btn-large i 
-    {
-        line-height:1 !important;
-        font-size:26px !important;
-    }
+.btn-holder .btn-large {
+    width:36.5px;
+    height:36.5px;
+}
+
+.btn-holder .btn-large i {
+    line-height:1 !important;
+    font-size:26px !important;
+}
 
     .middle 
     {
@@ -606,7 +605,7 @@ body.scale-effect .btn-holder .btn-play {
 }
 
 // <!--==========================================
-//                     ENDHEADER
+//                     END HEADER
 // ===========================================-->
 
 #v-card-holder {
@@ -629,6 +628,8 @@ body.scale-effect .btn-holder .btn-play {
 
 #v-card-holder #v-card .info-headings {
     max-width:514px;
+    position: relative;
+    float: left;
 }
 
 #v-card-holder #v-card .info-headings h4 {
@@ -654,8 +655,6 @@ body.scale-effect .btn-holder .btn-play {
     max-width:515px;
     margin-top:99px;
 }
-
-// #v-card-holder #v-card .infos .profile-list{}
 
 #v-card-holder #v-card .infos .profile-list .title {
     display:block;
@@ -709,10 +708,12 @@ body.scale-effect .btn-holder .btn-play {
 }
 @media screen and (max-width:990px){#v-card-holder #v-card .infos
     {max-width:278px;}
+    
 #v-card-holder #v-card .links
     {max-width:325px;}
+
 #v-card-holder #v-card .info-headings
-{max-width:270px;}
+    {max-width:270px;}
 }
 
 #v-card-holder #v-card #profile {
